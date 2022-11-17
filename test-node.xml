@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ElementModel name="EDGE_VPC1_S26_05_X.DCF.CO.VACT.COMCAST.NET"
+              genus="video unified model"
+              species="dcm"
+              timestamp="2022-10-25T19:22:49.911+00:00"
+              isInitialized="true">
+			  
+   <device dataType="fXml">
+      <time_info dataType="fXml">
+         <time dataType="fDateTime">2022-10-25T19:22:31.000+00:00</time>
+         <time_zone dataType="fString">Europe/London</time_zone>
+      </time_info>
+      <mgt_interfaces dataType="fXml">
+         <number_of_mgt_interfaces dataType="fInt">1</number_of_mgt_interfaces>
+         <mgt_interface_0 dataType="fXml" modelIndex="0">
+            <ip_address dataType="fString">172.28.239.197</ip_address>
+            <name dataType="fString">10/100 Port</name>
+            <netmask dataType="fString">255.255.255.192</netmask>
+            <gateway dataType="fString">172.28.239.193</gateway>
+            <mac_address dataType="fString">B0:00:B4:1F:56:77</mac_address>
+            <state dataType="fString">Enabled</state>
+         </mgt_interface_0>
+      </mgt_interfaces>
+      <slots dataType="fXml">
+         <number_of_slots dataType="fInt">9</number_of_slots>
+         <slot_0 dataType="fXml" modelIndex="0">
+            <slot_index dataType="fInt">1</slot_index>
+            <name dataType="fString">Main MkII 0</name>
+            <present dataType="fBoolean">true</present>
+         </slot_0>
+         <slot_1 dataType="fXml" modelIndex="1">
+            <slot_index dataType="fInt">2</slot_index>
+            <name dataType="fString">I/O 1 M_SPTS In/MPTS Out/In_SwOut</name>
+            <present dataType="fBoolean">true</present>
+         </slot_1>
+         <slot_2 dataType="fXml" modelIndex="2">
+            <slot_index dataType="fInt">3</slot_index>
+            <name dataType="fString">I/O 2  P_SPTS In/MPTS Out/In_SwOut</name>
+            <present dataType="fBoolean">true</present>
+         </slot_2>
+	 </slots>
+    </device>
+</ElementModel>
